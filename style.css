@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: auto;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+    width: 366px;
+    border-radius: 20px;
+flex-wrap: wrap;
+gap: 20px;
+   
+}
+
+.man{
+    position: absolute;
+    top: 410px;
+}
+
+
+.box h1{
+display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+  margin-top: 40px;
+    font-style: italic;
+    font-size: 32px;
+}
+
+
+.box p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    width: 291px;
+    height: 51px;
+    line-height: 158.88%;
+}
+
+.box button{
+    width: 176px;
+    height: 48px;
+    background-color:  #5C85D4;
+    border-radius: 30px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer; 
+    margin-top: 10px; 
+    margin-bottom: 20px;
+
+   
+}
+
+.box button:hover{
+    background-color: #1151d1;
+}
